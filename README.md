@@ -7,7 +7,7 @@ A fully automated robot which can perform all of the tasks except harvesting on 
 
   The robot uses an arduino Mega2560 R3 + WiFi board and we've hard coded each module representing each function the robot can perform on the field.  
   The data flow within the total system is as follows :  
-   ![Flowchart](https://github.com/sagar-s-abraham/Agrobot/blob/main/DFD%202.png?raw=true)  
+   ![Flowchart](https://github.com/sagar-s-abraham/Agrobot/blob/main/Images/DFD%202.png?raw=true)  
    For easier understanding, the left side contains the input modules where the sensors and the camera percieves data from the field,  
    The middle blocks contain the UI for the farmer to interact with the robot and the microcontroller within the arduino board, and also 2 ML models which are hosted in the computer system.  
    The right side contains the actuator modules which perform certain functions on the field based off of the decisions taken by the controller.  
